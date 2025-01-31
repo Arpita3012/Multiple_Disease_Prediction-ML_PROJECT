@@ -12,9 +12,9 @@ from streamlit_option_menu import option_menu
 
 #loading_models
 
-diabetes_model= pickle.load(open('/Users/arpitasingh/Documents/ml-web-app/Multiple Disease Prediction/diabetes_model.sav','rb'))
-heart_model= pickle.load(open('/Users/arpitasingh/Documents/ml-web-app/Multiple Disease Prediction/heart_disease_model.sav','rb'))
-parkinson_model= pickle.load(open('/Users/arpitasingh/Documents/ml-web-app/Multiple Disease Prediction/parkinsons_model.sav','rb'))
+diabetes_model= pickle.load(open('diabetes_model.sav','rb'))
+heart_model= pickle.load(open('heart_disease_model.sav','rb'))
+parkinson_model= pickle.load(open('parkinsons_model.sav','rb'))
 
 #sidebar for navigation
 
